@@ -1,0 +1,12 @@
+<form class="form-container" (ngSubmit)="submitForm()">
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" [(ngModel)]="firstName">
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" [(ngModel)]="lastName">
+    </div>
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+  
